@@ -82,6 +82,12 @@ a{
 
 footer{
     clear: both;
+    background-color: #666666;
+    position: relative;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    border-top: 10px solid #4aaaa5;
 
 }
 
@@ -169,4 +175,134 @@ footer{
 	border: none;
 	padding: 2px 4px;
 	font-size: 15pt;
+}
+
+@media screen and (max-width: 768px )
+{
+    .body{
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .head{
+        width: 90%;
+        margin: auto;
+    }
+
+    #name{
+        margin-right: 0;
+    }
+
+    .content{
+        width: 90%;
+    }
+
+    .portfolio_area{
+        width: 90%;
+    }
+
+    .port_pos{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .portfolio_pics{
+        width: 400px;
+        height: 300px;
+    }
+
+    .contact_input{
+        width: 75%;
+    }
+
+    .contact_lbl{
+        width: 75%;
+    }
+
+    .contact_msg{
+        width: 75%;
+    }
+
+    .contact_submit{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:640px)
+{
+    .contact_input{
+        width: 60%;
+    }
+
+    .contact_lbl{
+        width: 60%;
+    }
+
+    .contact_msg{
+        width: 60%;
+        margin-right: 30%;
+    }
+
+    .contact_submit{
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width:414px)
+{
+    .portfolio_pics{
+        width: 250px;
+        height: 188px;
+    }
+
+    .port_pos{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contact_input{
+        width: 35%;
+    }
+
+    .contact_lbl{
+        width: 35%;
+    }
+
+    .contact_msg{
+        width: 35%;
+        margin-right: 40%;
+    }
+
+    .contact_submit{
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width:411px)
+{
+    .portfolio_pics{
+        width: 200px;
+        height: 150px;
+    }
+
+    .contact_input{
+        width: 35%;
+    }
+
+    .contact_lbl{
+        width: 35%;
+    }
+
+    .contact_msg{
+        width: 35%;
+        margin-right: 40%;
+    }
+
+    .contact_submit{
+        width: 25%;
+    }
+
 }
