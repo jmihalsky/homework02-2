@@ -1,0 +1,172 @@
+.body{
+    clear:both;
+    background: url('../images/gravel.png');
+    
+    
+}
+
+.wrapper{
+    width:960px;
+    margin: auto;
+    
+}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 61px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.head{
+    width: 960px;
+    margin: auto;
+}
+
+.content{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width:960px;
+    margin: auto;
+    position: relative;
+
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 15px;
+}
+
+#name{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    height: 50px;
+    padding: 5px;
+    margin-right: 50%;
+    float: left;
+}
+
+#menu{
+    float: right;
+    height: 50px;
+    padding: 5px;
+    position: relative;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.title{
+    border-bottom: 2px solid #dddddd;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#profilepic{
+    width: 200px;
+    padding: 0px 20px 0px 40px;
+    float: left;
+}
+
+#p1{
+    width: auto;
+    font-size: 15pt;
+    padding: 0px 40px 10px 15px;
+}
+
+footer{
+    clear: both;
+
+}
+
+#green-footer{
+    clear: both;
+    background-color: #4aaaa5;
+    height: 5px;
+    width: 100%;
+
+}
+
+#grey-footer{
+    clear: both;
+    background-color: #666666;
+    height: 20px;
+    width: 100%;
+}
+
+#portfolio_list{
+    list-style: none;
+}
+.portfolio_pics{
+    width: 300px;
+    height: 225px;
+}
+
+.portfolio_area{
+    display: inline-block;
+	width: 960px;
+	margin: 5px 0;
+	background-color: #ffffff;
+}
+
+.port_pos{
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 0px 15px 30px 15px;
+}
+
+.port_tags{
+    position: relative;
+    top: -90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 4px;
+	color: #ffffff;
+	z-index: 10;
+}
+
+.contact{ width:860px;
+    padding: 15px;
+
+}
+
+.contact_lbl {
+	display: block;
+	padding-bottom: 1px;
+}
+
+.contact_input {
+	width: 100%;
+	border: 1px solid #cccccc;
+	margin-bottom: 10px;
+	padding: 2px;
+	font-size: 12pt;
+}
+
+.contact_msg{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+	padding: 2px;
+	font-size: 12pt;
+}
+
+.contact_submit {
+    width: 140px;
+    height: 50px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	padding: 2px 4px;
+	font-size: 15pt;
+}
