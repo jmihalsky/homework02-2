@@ -177,6 +177,26 @@ footer{
 	font-size: 15pt;
 }
 
+@media screen and (max-width:980px)
+{
+    .contact_input{
+        margin-left: 5%;
+    }
+
+    .contact_lbl{
+        margin-left: 5%;
+    }
+
+    .contact_msg{
+        margin-left: 5%;
+        margin-right: 30%;
+    }
+
+    .contact_submit{
+        margin-left: 5%;
+    }
+}
+
 @media screen and (max-width: 768px )
 {
     .body{
